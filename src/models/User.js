@@ -14,11 +14,11 @@ const userSchema = new Schema({
     required: true,
     lowercase: true,
   },
-  salt: {
+  hash: {
     type: String,
     required: true,
   },
-  hash: {
+  token: {
     type: String,
     required: true,
   },
